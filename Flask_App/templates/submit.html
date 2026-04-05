@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submitted</title>
+</head>
+<body>
+    <h1>✅ Data submitted successfully!</h1>
+
+    {% if message %}
+        <div class="message {% if success %}success{% else %}error{% endif %}">
+            {{ message }}
+        </div>
+    {% endif %}
+
+    <p>Here is the data you submitted:</p>
+    <ul>
+        <li><strong>Name:</strong> {{ data.name }}</li>
+        <li><strong>Email:</strong> {{ data.email }}</li>
+    </ul>
+    <pre>{{ data }}</pre>
+
+    <a href="/">Go Back to Home</a>
+</body>
+</html>
