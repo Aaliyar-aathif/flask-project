@@ -1,0 +1,14 @@
+
+{
+    "stattement":[
+    "Welcome to my first flask api",
+    "This is api read data from backed file",
+    "the file which is store as json",
+    "when ever you route to /api page it access the file ",
+    "Display the content"],
+
+    "fruit" : ["apple","banana","cherry"],
+    "city": "New York",
+    "isActive": true,
+    "App": "My Flask app"
+}
